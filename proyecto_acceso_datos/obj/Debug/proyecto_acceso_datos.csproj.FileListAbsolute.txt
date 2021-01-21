@@ -1,0 +1,293 @@
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.exe.config
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.exe
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.pdb
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EntityFramework.dll
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EntityFramework.xml
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csprojAssemblyReference.cache
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARPROV.resources
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMENUPRI.resources
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARPROV.resources
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FINICIO.resources
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FPROVEEDORES.resources
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.Properties.Resources.resources
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.GenerateResource.cache
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.CoreCompileInputs.cache
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.CopyComplete
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.exe
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.pdb
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARPROVEEDOR.resources
+C:\Users\Raymer\Desktop\programas POO\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FUSUARIO_ACTUAL.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.exe.config
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.exe
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.pdb
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EntityFramework.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EntityFramework.xml
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARPROV.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMENUPRI.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARPROV.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FINICIO.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FPROVEEDORES.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FUSUARIO_ACTUAL.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARPROVEEDOR.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.Properties.Resources.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.GenerateResource.cache
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.CoreCompileInputs.cache
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.CopyComplete
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.exe
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.pdb
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARFACT.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FFACTURAS.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARFACT.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARFACTURA.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FESTADODECUENTAS.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.exe.config
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.exe
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.pdb
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EntityFramework.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EntityFramework.xml
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csprojAssemblyReference.cache
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARFACT.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARPROV.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FESTADODECUENTAS.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FFACTURAS.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMENUPRI.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARFACT.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARPROV.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FINICIO.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FPROVEEDORES.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FUSUARIO_ACTUAL.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARFACTURA.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARPROVEEDOR.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.Properties.Resources.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.GenerateResource.cache
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.CoreCompileInputs.cache
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.CopyComplete
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.exe
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.pdb
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRPROVEEDORES.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\RdlCompile.cache
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\RdlCompile.compiled
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EnvDTE.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\stdole.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csprojAssemblyReference.cache
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.Form2.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRESTADOCUENTAS.resources
+C:\Users\Raymer\Desktop\josue\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EnvDTE.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\stdole.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.Form2.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRCHEQUES.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRESTADOCUENTAS.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRPROVEEDORES.resources
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\RdlCompile.cache
+C:\Users\Raymer\Desktop\josue\COPIA DEL PROGRAMA\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\RdlCompile.compiled
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.exe.config
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.exe
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\proyecto_acceso_datos.pdb
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EntityFramework.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.Design.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EnvDTE.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\stdole.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\Microsoft.MSXML.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\EntityFramework.xml
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csprojAssemblyReference.cache
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARCHEQUES.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARFACT.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FAGREGARPROV.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FCHEQUES.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FESTADODECUENTAS.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FFACTURAS.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMENUPRI.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARCHEQUES.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARFACT.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FMODIFICARPROV.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FINICIO.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.Form2.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FPROVEEDORES.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRCHEQUES.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRESTADOCUENTAS.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FRPROVEEDORES.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.FUSUARIO_ACTUAL.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARCHEQUES.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARFACTURA.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.F_ELIMINARPROVEEDOR.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.Properties.Resources.resources
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.GenerateResource.cache
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.CoreCompileInputs.cache
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.csproj.CopyComplete
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.exe
+F:\proyecto_acceso_datos\proyecto_acceso_datos\obj\Debug\proyecto_acceso_datos.pdb

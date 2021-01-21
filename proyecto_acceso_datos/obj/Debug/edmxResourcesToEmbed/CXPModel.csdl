@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SCXPPJModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CHEQUESPJ">
+    <Key>
+      <PropertyRef Name="NUMEROCHEQUE" />
+    </Key>
+    <Property Name="NUMEROCHEQUE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NUMEROFACTURA" Type="Int32" />
+    <Property Name="VALORCHEQUE" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="FECHACHEQUE" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="FACTURASPJ" Relationship="Self.CHEQ_FACT" FromRole="CHEQUESPJ" ToRole="FACTURASPJ" />
+  </EntityType>
+  <EntityType Name="FACTURASPJ">
+    <Key>
+      <PropertyRef Name="NUMEROFACTURA" />
+    </Key>
+    <Property Name="NUMEROFACTURA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CODIGOPROVEEDOR" Type="Int32" Nullable="false" />
+    <Property Name="VALORFACTURA" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="FECHAFACTURA" Type="DateTime" Precision="0" />
+    <Property Name="FECHAVENCIMIENTO" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="CHEQUESPJs" Relationship="Self.CHEQ_FACT" FromRole="FACTURASPJ" ToRole="CHEQUESPJ" />
+    <NavigationProperty Name="PROVEEDORESPJ" Relationship="Self.FACT_PROV" FromRole="FACTURASPJ" ToRole="PROVEEDORESPJ" />
+  </EntityType>
+  <EntityType Name="PROVEEDORESPJ">
+    <Key>
+      <PropertyRef Name="CODIGOPROVEEDOR" />
+    </Key>
+    <Property Name="CODIGOPROVEEDOR" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRES" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="APELLIDOS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="DIRECCION" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="CIUDAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TELEFONO" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="FACTURASPJs" Relationship="Self.FACT_PROV" FromRole="PROVEEDORESPJ" ToRole="FACTURASPJ" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="USUARIOSPJ">
+    <Key>
+      <PropertyRef Name="USUARIO" />
+    </Key>
+    <Property Name="USUARIO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CLAVE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ESTADODECUENTA">
+    <Key>
+      <PropertyRef Name="CODIGOPROVEEDOR" />
+      <PropertyRef Name="NUMEROFACTURA" />
+    </Key>
+    <Property Name="CODIGOPROVEEDOR" Type="Int32" Nullable="false" />
+    <Property Name="NOMBRES" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="APELLIDOS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="NUMEROFACTURA" Type="Int32" Nullable="false" />
+    <Property Name="MONTO" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="PAGOS" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="BALANCE" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <Association Name="CHEQ_FACT">
+    <End Role="FACTURASPJ" Type="Self.FACTURASPJ" Multiplicity="0..1" />
+    <End Role="CHEQUESPJ" Type="Self.CHEQUESPJ" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACTURASPJ">
+        <PropertyRef Name="NUMEROFACTURA" />
+      </Principal>
+      <Dependent Role="CHEQUESPJ">
+        <PropertyRef Name="NUMEROFACTURA" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FACT_PROV">
+    <End Role="PROVEEDORESPJ" Type="Self.PROVEEDORESPJ" Multiplicity="1" />
+    <End Role="FACTURASPJ" Type="Self.FACTURASPJ" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROVEEDORESPJ">
+        <PropertyRef Name="CODIGOPROVEEDOR" />
+      </Principal>
+      <Dependent Role="FACTURASPJ">
+        <PropertyRef Name="CODIGOPROVEEDOR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SCXPPJEntitiesPJ" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CHEQUESPJs" EntityType="Self.CHEQUESPJ" />
+    <EntitySet Name="FACTURASPJs" EntityType="Self.FACTURASPJ" />
+    <EntitySet Name="PROVEEDORESPJs" EntityType="Self.PROVEEDORESPJ" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="USUARIOSPJs" EntityType="Self.USUARIOSPJ" />
+    <EntitySet Name="ESTADODECUENTAS" EntityType="Self.ESTADODECUENTA" />
+    <AssociationSet Name="CHEQ_FACT" Association="Self.CHEQ_FACT">
+      <End Role="FACTURASPJ" EntitySet="FACTURASPJs" />
+      <End Role="CHEQUESPJ" EntitySet="CHEQUESPJs" />
+    </AssociationSet>
+    <AssociationSet Name="FACT_PROV" Association="Self.FACT_PROV">
+      <End Role="PROVEEDORESPJ" EntitySet="PROVEEDORESPJs" />
+      <End Role="FACTURASPJ" EntitySet="FACTURASPJs" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(SCXPPJModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(SCXPPJModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

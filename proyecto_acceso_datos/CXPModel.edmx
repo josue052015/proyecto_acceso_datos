@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SCXPPJModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CHEQUESPJ">
+          <Key>
+            <PropertyRef Name="NUMEROCHEQUE" />
+          </Key>
+          <Property Name="NUMEROCHEQUE" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NUMEROFACTURA" Type="int" />
+          <Property Name="VALORCHEQUE" Type="money" />
+          <Property Name="FECHACHEQUE" Type="date" />
+        </EntityType>
+        <EntityType Name="FACTURASPJ">
+          <Key>
+            <PropertyRef Name="NUMEROFACTURA" />
+          </Key>
+          <Property Name="NUMEROFACTURA" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CODIGOPROVEEDOR" Type="int" Nullable="false" />
+          <Property Name="VALORFACTURA" Type="money" />
+          <Property Name="FECHAFACTURA" Type="date" />
+          <Property Name="FECHAVENCIMIENTO" Type="date" />
+        </EntityType>
+        <EntityType Name="PROVEEDORESPJ">
+          <Key>
+            <PropertyRef Name="CODIGOPROVEEDOR" />
+          </Key>
+          <Property Name="CODIGOPROVEEDOR" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRES" Type="varchar" MaxLength="30" />
+          <Property Name="APELLIDOS" Type="varchar" MaxLength="30" />
+          <Property Name="DIRECCION" Type="varchar" MaxLength="45" />
+          <Property Name="CIUDAD" Type="varchar" MaxLength="30" />
+          <Property Name="TELEFONO" Type="varchar" MaxLength="12" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="USUARIOSPJ">
+          <Key>
+            <PropertyRef Name="USUARIO" />
+          </Key>
+          <Property Name="USUARIO" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="CLAVE" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SCXPPJ.dbo.ESTADODECUENTAS' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="ESTADODECUENTAS">
+          <Key>
+            <PropertyRef Name="CODIGOPROVEEDOR" />
+            <PropertyRef Name="NUMEROFACTURA" />
+          </Key>
+          <Property Name="CODIGOPROVEEDOR" Type="int" Nullable="false" />
+          <Property Name="NOMBRES" Type="varchar" MaxLength="30" />
+          <Property Name="APELLIDOS" Type="varchar" MaxLength="30" />
+          <Property Name="NUMEROFACTURA" Type="int" Nullable="false" />
+          <Property Name="MONTO" Type="money" />
+          <Property Name="PAGOS" Type="money" />
+          <Property Name="BALANCE" Type="money" />
+        </EntityType>
+        <Association Name="CHEQ_FACT">
+          <End Role="FACTURASPJ" Type="Self.FACTURASPJ" Multiplicity="0..1" />
+          <End Role="CHEQUESPJ" Type="Self.CHEQUESPJ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FACTURASPJ">
+              <PropertyRef Name="NUMEROFACTURA" />
+            </Principal>
+            <Dependent Role="CHEQUESPJ">
+              <PropertyRef Name="NUMEROFACTURA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FACT_PROV">
+          <End Role="PROVEEDORESPJ" Type="Self.PROVEEDORESPJ" Multiplicity="1" />
+          <End Role="FACTURASPJ" Type="Self.FACTURASPJ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PROVEEDORESPJ">
+              <PropertyRef Name="CODIGOPROVEEDOR" />
+            </Principal>
+            <Dependent Role="FACTURASPJ">
+              <PropertyRef Name="CODIGOPROVEEDOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <EntityContainer Name="SCXPPJModelStoreContainer">
+          <EntitySet Name="CHEQUESPJ" EntityType="Self.CHEQUESPJ" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FACTURASPJ" EntityType="Self.FACTURASPJ" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PROVEEDORESPJ" EntityType="Self.PROVEEDORESPJ" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USUARIOSPJ" EntityType="Self.USUARIOSPJ" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ESTADODECUENTAS" EntityType="Self.ESTADODECUENTAS" store:Type="Views" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+[ESTADODECUENTAS].[CODIGOPROVEEDOR] AS [CODIGOPROVEEDOR], 
+[ESTADODECUENTAS].[NOMBRES] AS [NOMBRES], 
+[ESTADODECUENTAS].[APELLIDOS] AS [APELLIDOS], 
+[ESTADODECUENTAS].[NUMEROFACTURA] AS [NUMEROFACTURA], 
+[ESTADODECUENTAS].[MONTO] AS [MONTO], 
+[ESTADODECUENTAS].[PAGOS] AS [PAGOS], 
+[ESTADODECUENTAS].[BALANCE] AS [BALANCE]
+FROM [dbo].[ESTADODECUENTAS] AS [ESTADODECUENTAS]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="CHEQ_FACT" Association="Self.CHEQ_FACT">
+            <End Role="FACTURASPJ" EntitySet="FACTURASPJ" />
+            <End Role="CHEQUESPJ" EntitySet="CHEQUESPJ" />
+          </AssociationSet>
+          <AssociationSet Name="FACT_PROV" Association="Self.FACT_PROV">
+            <End Role="PROVEEDORESPJ" EntitySet="PROVEEDORESPJ" />
+            <End Role="FACTURASPJ" EntitySet="FACTURASPJ" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SCXPPJModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CHEQUESPJ">
+          <Key>
+            <PropertyRef Name="NUMEROCHEQUE" />
+          </Key>
+          <Property Name="NUMEROCHEQUE" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NUMEROFACTURA" Type="Int32" />
+          <Property Name="VALORCHEQUE" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="FECHACHEQUE" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="FACTURASPJ" Relationship="Self.CHEQ_FACT" FromRole="CHEQUESPJ" ToRole="FACTURASPJ" />
+        </EntityType>
+        <EntityType Name="FACTURASPJ">
+          <Key>
+            <PropertyRef Name="NUMEROFACTURA" />
+          </Key>
+          <Property Name="NUMEROFACTURA" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CODIGOPROVEEDOR" Type="Int32" Nullable="false" />
+          <Property Name="VALORFACTURA" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="FECHAFACTURA" Type="DateTime" Precision="0" />
+          <Property Name="FECHAVENCIMIENTO" Type="DateTime" Precision="0" />
+          <NavigationProperty Name="CHEQUESPJs" Relationship="Self.CHEQ_FACT" FromRole="FACTURASPJ" ToRole="CHEQUESPJ" />
+          <NavigationProperty Name="PROVEEDORESPJ" Relationship="Self.FACT_PROV" FromRole="FACTURASPJ" ToRole="PROVEEDORESPJ" />
+        </EntityType>
+        <EntityType Name="PROVEEDORESPJ">
+          <Key>
+            <PropertyRef Name="CODIGOPROVEEDOR" />
+          </Key>
+          <Property Name="CODIGOPROVEEDOR" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRES" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="APELLIDOS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="DIRECCION" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Name="CIUDAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="TELEFONO" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="FACTURASPJs" Relationship="Self.FACT_PROV" FromRole="PROVEEDORESPJ" ToRole="FACTURASPJ" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="USUARIOSPJ">
+          <Key>
+            <PropertyRef Name="USUARIO" />
+          </Key>
+          <Property Name="USUARIO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CLAVE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="ESTADODECUENTA">
+          <Key>
+            <PropertyRef Name="CODIGOPROVEEDOR" />
+            <PropertyRef Name="NUMEROFACTURA" />
+          </Key>
+          <Property Name="CODIGOPROVEEDOR" Type="Int32" Nullable="false" />
+          <Property Name="NOMBRES" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="APELLIDOS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="NUMEROFACTURA" Type="Int32" Nullable="false" />
+          <Property Name="MONTO" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="PAGOS" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="BALANCE" Type="Decimal" Precision="19" Scale="4" />
+        </EntityType>
+        <Association Name="CHEQ_FACT">
+          <End Role="FACTURASPJ" Type="Self.FACTURASPJ" Multiplicity="0..1" />
+          <End Role="CHEQUESPJ" Type="Self.CHEQUESPJ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="FACTURASPJ">
+              <PropertyRef Name="NUMEROFACTURA" />
+            </Principal>
+            <Dependent Role="CHEQUESPJ">
+              <PropertyRef Name="NUMEROFACTURA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FACT_PROV">
+          <End Role="PROVEEDORESPJ" Type="Self.PROVEEDORESPJ" Multiplicity="1" />
+          <End Role="FACTURASPJ" Type="Self.FACTURASPJ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PROVEEDORESPJ">
+              <PropertyRef Name="CODIGOPROVEEDOR" />
+            </Principal>
+            <Dependent Role="FACTURASPJ">
+              <PropertyRef Name="CODIGOPROVEEDOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="SCXPPJEntitiesPJ" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CHEQUESPJs" EntityType="Self.CHEQUESPJ" />
+          <EntitySet Name="FACTURASPJs" EntityType="Self.FACTURASPJ" />
+          <EntitySet Name="PROVEEDORESPJs" EntityType="Self.PROVEEDORESPJ" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="USUARIOSPJs" EntityType="Self.USUARIOSPJ" />
+          <EntitySet Name="ESTADODECUENTAS" EntityType="Self.ESTADODECUENTA" />
+          <AssociationSet Name="CHEQ_FACT" Association="Self.CHEQ_FACT">
+            <End Role="FACTURASPJ" EntitySet="FACTURASPJs" />
+            <End Role="CHEQUESPJ" EntitySet="CHEQUESPJs" />
+          </AssociationSet>
+          <AssociationSet Name="FACT_PROV" Association="Self.FACT_PROV">
+            <End Role="PROVEEDORESPJ" EntitySet="PROVEEDORESPJs" />
+            <End Role="FACTURASPJ" EntitySet="FACTURASPJs" />
+          </AssociationSet>
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(SCXPPJModel.sp_helpdiagramdefinition_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(SCXPPJModel.sp_helpdiagrams_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+        </EntityContainer>
+        <ComplexType Name="sp_helpdiagramdefinition_Result">
+          <Property Type="Int32" Name="version" Nullable="true" />
+          <Property Type="Binary" Name="definition" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagrams_Result">
+          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+          <Property Type="Int32" Name="OwnerID" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SCXPPJModelStoreContainer" CdmEntityContainer="SCXPPJEntitiesPJ">
+          <EntitySetMapping Name="CHEQUESPJs">
+            <EntityTypeMapping TypeName="SCXPPJModel.CHEQUESPJ">
+              <MappingFragment StoreEntitySet="CHEQUESPJ">
+                <ScalarProperty Name="NUMEROCHEQUE" ColumnName="NUMEROCHEQUE" />
+                <ScalarProperty Name="NUMEROFACTURA" ColumnName="NUMEROFACTURA" />
+                <ScalarProperty Name="VALORCHEQUE" ColumnName="VALORCHEQUE" />
+                <ScalarProperty Name="FECHACHEQUE" ColumnName="FECHACHEQUE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FACTURASPJs">
+            <EntityTypeMapping TypeName="SCXPPJModel.FACTURASPJ">
+              <MappingFragment StoreEntitySet="FACTURASPJ">
+                <ScalarProperty Name="NUMEROFACTURA" ColumnName="NUMEROFACTURA" />
+                <ScalarProperty Name="CODIGOPROVEEDOR" ColumnName="CODIGOPROVEEDOR" />
+                <ScalarProperty Name="VALORFACTURA" ColumnName="VALORFACTURA" />
+                <ScalarProperty Name="FECHAFACTURA" ColumnName="FECHAFACTURA" />
+                <ScalarProperty Name="FECHAVENCIMIENTO" ColumnName="FECHAVENCIMIENTO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PROVEEDORESPJs">
+            <EntityTypeMapping TypeName="SCXPPJModel.PROVEEDORESPJ">
+              <MappingFragment StoreEntitySet="PROVEEDORESPJ">
+                <ScalarProperty Name="CODIGOPROVEEDOR" ColumnName="CODIGOPROVEEDOR" />
+                <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+                <ScalarProperty Name="APELLIDOS" ColumnName="APELLIDOS" />
+                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+                <ScalarProperty Name="CIUDAD" ColumnName="CIUDAD" />
+                <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="SCXPPJModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USUARIOSPJs">
+            <EntityTypeMapping TypeName="SCXPPJModel.USUARIOSPJ">
+              <MappingFragment StoreEntitySet="USUARIOSPJ">
+                <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+                <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ESTADODECUENTAS">
+            <EntityTypeMapping TypeName="SCXPPJModel.ESTADODECUENTA">
+              <MappingFragment StoreEntitySet="ESTADODECUENTAS">
+                <ScalarProperty Name="CODIGOPROVEEDOR" ColumnName="CODIGOPROVEEDOR" />
+                <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+                <ScalarProperty Name="APELLIDOS" ColumnName="APELLIDOS" />
+                <ScalarProperty Name="NUMEROFACTURA" ColumnName="NUMEROFACTURA" />
+                <ScalarProperty Name="MONTO" ColumnName="MONTO" />
+                <ScalarProperty Name="PAGOS" ColumnName="PAGOS" />
+                <ScalarProperty Name="BALANCE" ColumnName="BALANCE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="SCXPPJModel.Store.sp_alterdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="SCXPPJModel.Store.sp_creatediagram" />
+          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="SCXPPJModel.Store.sp_dropdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="SCXPPJModel.Store.sp_helpdiagramdefinition">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SCXPPJModel.sp_helpdiagramdefinition_Result">
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="SCXPPJModel.Store.sp_helpdiagrams">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="SCXPPJModel.sp_helpdiagrams_Result">
+                <ScalarProperty Name="Database" ColumnName="Database" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="SCXPPJModel.Store.sp_renamediagram" />
+          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="SCXPPJModel.Store.sp_upgraddiagrams" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

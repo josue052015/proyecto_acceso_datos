@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SCXPPJModelStoreContainer" CdmEntityContainer="SCXPPJEntitiesPJ">
+    <EntitySetMapping Name="CHEQUESPJs">
+      <EntityTypeMapping TypeName="SCXPPJModel.CHEQUESPJ">
+        <MappingFragment StoreEntitySet="CHEQUESPJ">
+          <ScalarProperty Name="NUMEROCHEQUE" ColumnName="NUMEROCHEQUE" />
+          <ScalarProperty Name="NUMEROFACTURA" ColumnName="NUMEROFACTURA" />
+          <ScalarProperty Name="VALORCHEQUE" ColumnName="VALORCHEQUE" />
+          <ScalarProperty Name="FECHACHEQUE" ColumnName="FECHACHEQUE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FACTURASPJs">
+      <EntityTypeMapping TypeName="SCXPPJModel.FACTURASPJ">
+        <MappingFragment StoreEntitySet="FACTURASPJ">
+          <ScalarProperty Name="NUMEROFACTURA" ColumnName="NUMEROFACTURA" />
+          <ScalarProperty Name="CODIGOPROVEEDOR" ColumnName="CODIGOPROVEEDOR" />
+          <ScalarProperty Name="VALORFACTURA" ColumnName="VALORFACTURA" />
+          <ScalarProperty Name="FECHAFACTURA" ColumnName="FECHAFACTURA" />
+          <ScalarProperty Name="FECHAVENCIMIENTO" ColumnName="FECHAVENCIMIENTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROVEEDORESPJs">
+      <EntityTypeMapping TypeName="SCXPPJModel.PROVEEDORESPJ">
+        <MappingFragment StoreEntitySet="PROVEEDORESPJ">
+          <ScalarProperty Name="CODIGOPROVEEDOR" ColumnName="CODIGOPROVEEDOR" />
+          <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+          <ScalarProperty Name="APELLIDOS" ColumnName="APELLIDOS" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="CIUDAD" ColumnName="CIUDAD" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SCXPPJModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOSPJs">
+      <EntityTypeMapping TypeName="SCXPPJModel.USUARIOSPJ">
+        <MappingFragment StoreEntitySet="USUARIOSPJ">
+          <ScalarProperty Name="USUARIO" ColumnName="USUARIO" />
+          <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADODECUENTAS">
+      <EntityTypeMapping TypeName="SCXPPJModel.ESTADODECUENTA">
+        <MappingFragment StoreEntitySet="ESTADODECUENTAS">
+          <ScalarProperty Name="CODIGOPROVEEDOR" ColumnName="CODIGOPROVEEDOR" />
+          <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+          <ScalarProperty Name="APELLIDOS" ColumnName="APELLIDOS" />
+          <ScalarProperty Name="NUMEROFACTURA" ColumnName="NUMEROFACTURA" />
+          <ScalarProperty Name="MONTO" ColumnName="MONTO" />
+          <ScalarProperty Name="PAGOS" ColumnName="PAGOS" />
+          <ScalarProperty Name="BALANCE" ColumnName="BALANCE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="SCXPPJModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="SCXPPJModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="SCXPPJModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="SCXPPJModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SCXPPJModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="SCXPPJModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SCXPPJModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="SCXPPJModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="SCXPPJModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>
